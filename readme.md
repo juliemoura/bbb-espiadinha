@@ -43,4 +43,5 @@ Mostre aos usuários como o seu projeto é bonito com algumas capturas de tela.
 
 O projeto está disponível sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais informações.
 
-# Feito por: Julie Moura <3
+##
+Feito por: Julie Moura <3
