@@ -8,8 +8,6 @@ type InputControlledTypes = {
 }
 
 const InputControlled = ({ onSave }: InputControlledTypes) => {
-
-    
     const [name, setName] = useState('');
     const [lastName, setLastName] = useState('');
     const [nameErrorMessage, setNameErrorMessage] = useState('');

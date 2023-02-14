@@ -20,7 +20,7 @@ export const Label = styled.Text`
 `;
 
 export const InputContent = styled.View`
-  margin: 30px 0 0 0;
+  margin: 30px 0 30px 0;
 `;
 
 export const Button = styled.TouchableOpacity`
@@ -74,6 +74,6 @@ export const SuccessMessage = styled.Text`
 `;
 
 export const ProgressContainer = styled.View`
-  margin-top: 230px;
+  margin-top: 250px;
   padding: 20px;
 `;

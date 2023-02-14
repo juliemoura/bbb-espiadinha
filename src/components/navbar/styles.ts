@@ -27,5 +27,5 @@ export const Icon = styled.View`
   justify-content: center;
   position: absolute;
   right: 0px;
-  top: -39px;
+  top: -35px;
 `;

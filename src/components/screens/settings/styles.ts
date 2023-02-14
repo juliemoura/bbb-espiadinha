@@ -4,9 +4,9 @@ import styled from "styled-components/native";
 export const Container = styled.ScrollView`
   display: flex;
   flex-direction: column;
-  height: 705px;
+  height: 709px;
   width: 100%;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   position: relative;
   background: #080808;
   z-index: 3;
@@ -23,7 +23,7 @@ export const ExternalContainer = styled.SafeAreaView`
 `;
 
 export const InternalContainer = styled.View`
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
   display: flex;
   align-items: center;
 `;
@@ -31,7 +31,7 @@ export const InternalContainer = styled.View`
 export const TitlePage = styled.Text`
   font-size: 38px;
   color: #ffffff;
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
   font-weight: bold;
   width: 60%;
 `;
