@@ -1,9 +1,10 @@
 import React from 'react';
-import HomeScreen from '../../HomeScreen';
-import Queridometro from '../queridometro';
-import { Container, Name, ContentName, IconContainer, ExternalContainer, Teste } from './styles';
+import HomeScreen from '../screens/home';
+import Queridometro from '../screens/queridometro';
+import Settings, { SettingTypes } from '../screens/settings';
+import { Container, Name, ContentName, IconContainer, ExternalContainer, ContentSelected } from './styles';
 
-const FooterNavbar = () => {
+const FooterNavbar = ({onSave}: SettingTypes) => {
   const [selectedButton, setSelectedButton] = React.useState<number | null>(1);
 
   return (
@@ -22,10 +23,11 @@ const FooterNavbar = () => {
           <Name selected={selectedButton === 3}>Queridômetro</Name>
         </ContentName>
       </Container>
-      <Teste>
+      <ContentSelected>
         {selectedButton === 1 && <HomeScreen />}
+        {selectedButton === 2 && <Settings onSave={onSave} />}
         {selectedButton === 3 && <Queridometro />}
-      </Teste>
+      </ContentSelected>
     </ExternalContainer>
   );
 };

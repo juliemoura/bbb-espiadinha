@@ -10,7 +10,6 @@ export const Container = styled.ScrollView`
 
 export const InternalContainer = styled.View`
   padding-bottom: 30px;
-  /* display: flex; */
 `;
 
 export const QueridometroExternalContainer = styled.View`

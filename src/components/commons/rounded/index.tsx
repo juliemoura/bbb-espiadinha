@@ -31,7 +31,6 @@ const Rounded = ({ uri, children, title = "", secondUri = "", number = "", borde
                         {children}
                     </ChildrensContent>
                     <ButtonClosed
-                        title="X"
                         onPress={() => setShowText(false)}>
                         <IconContent name="closecircle" size={25} />
                     </ButtonClosed>

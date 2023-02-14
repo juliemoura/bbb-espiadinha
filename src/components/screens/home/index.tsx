@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Tag from "../components/commons/tag";
-import InProgress from "../components/inProgress";
-import Participants from "../components/participants";
-import Status from "../components/status";
+import Tag from "../../commons/tag";
+import InProgress from "../../inProgress";
+import Participants from "../../participants";
+import Status from "../../status";
 import { Container, ExternalContainer, IconContainer, Title, StyledView } from "./styles";
 
 const HomeScreen = () => {

@@ -2,11 +2,11 @@ import { DescriptionTitle, DescriptionTitleContainer } from "./styles";
 
 type DescriptionTypes = {
     title: string;
-    color: string;
+    borderColor: string;
 }
-const Description = ({ title, color }: DescriptionTypes) => {
+const Description = ({ title, borderColor }: DescriptionTypes) => {
     return (
-        <DescriptionTitleContainer borderColor={color}>
+        <DescriptionTitleContainer borderColor={borderColor}>
             <DescriptionTitle>{title}</DescriptionTitle>
         </DescriptionTitleContainer>
     );

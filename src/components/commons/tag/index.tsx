@@ -4,7 +4,7 @@ import { Button, ChildrenContent } from "./styles";
 interface IButton {
   selected: boolean;
   onPress: () => void;
-  children: ReactNode | ReactNode [];
+  children: ReactNode | ReactNode[];
 }
 
 const Tag = ({ selected, onPress, children }: IButton) => {

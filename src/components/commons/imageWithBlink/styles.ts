@@ -5,4 +5,3 @@ export const Image = styled.Image`
   height: 50px;
   border-radius: 999px;
 `;
-

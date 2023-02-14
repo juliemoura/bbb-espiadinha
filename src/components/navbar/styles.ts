@@ -22,7 +22,10 @@ export const Name = styled.Text`
 `;
 
 export const Icon = styled.View`
-  width: 50px;
-  height: 50px;
-  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  top: -39px;
 `;

@@ -20,6 +20,4 @@ export const Image = styled.Image`
   border-radius: 9999px;
 `;
 
-export const NameWithImage = styled.View`
-  border: 1px solid red;
-`;
+export const NameWithImage = styled.View``;

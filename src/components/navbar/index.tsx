@@ -1,21 +1,25 @@
 import { useEffect, useState } from "react";
-import { Image } from "react-native";
 import UploadImage from "../commons/uploadImage";
 import { Container, Content, Title, Name, Icon } from "./styles";
 
-const Navbar = () => {
-  const [greeting, setGreeting] = useState('');
+interface INavbar {
+  name: string;
+  lastName: string;
+};
+
+const Navbar = ({ name, lastName}: INavbar) => {
+  const [greeting, setGreeting] = useState("");
 
   useEffect(() => {
     const date = new Date();
     const currentHour = date.getHours();
 
     if (currentHour >= 5 && currentHour < 12) {
-      setGreeting('Bom dia!');
+      setGreeting("Bom dia!");
     } else if (currentHour >= 12 && currentHour < 18) {
-      setGreeting('Boa tarde!');
+      setGreeting("Boa tarde!");
     } else {
-      setGreeting('Boa noite!');
+      setGreeting("Boa noite!");
     }
   }, []);
 
@@ -23,7 +27,7 @@ const Navbar = () => {
     <Container>
       <Content>
         <Title>{greeting}</Title>
-        <Name>Julie Moura</Name>
+        <Name>{name} {lastName}</Name>
       </Content>
       <Icon>
         <UploadImage />

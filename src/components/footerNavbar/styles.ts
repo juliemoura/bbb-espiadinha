@@ -41,4 +41,4 @@ export const IconContainer = styled(Icon)<IStyledButton>`
 
 export const ExternalContainer = styled.View``;
 
-export const Teste = styled.View``;
+export const ContentSelected = styled.View``;

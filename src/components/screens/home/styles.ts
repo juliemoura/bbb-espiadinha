@@ -1,7 +1,7 @@
 import styled from "styled-components/native";
 import Icon from "react-native-vector-icons/FontAwesome5";
 
-import { IStyledButton } from "../components/commons/tag/styles";
+import { IStyledButton } from "../../commons/tag/styles";
 
 export const ExternalContainer = styled.View``;
 

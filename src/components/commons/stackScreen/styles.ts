@@ -6,7 +6,6 @@ export const Container = styled.View`
   background: #151515;
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
   align-items: center;
   border-radius: 999px;
   padding: 10px 35px 10px 25px;
@@ -24,7 +23,7 @@ export const TitleContainer = styled.View`
 `;
 
 export const Title = styled.Text`
-  color: #fff;
+  color: #FFFFFF;
   font-size: 16px;
 `;
 
@@ -59,7 +58,7 @@ export const HiddenContainer = styled.View`
 `;
 
 export const Text = styled.Text`
-  color: #dcdcdc;
+  color: #DCDCDC;
   position: absolute;
   right: -15px;
   top: -2px;
