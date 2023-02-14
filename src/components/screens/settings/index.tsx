@@ -13,9 +13,6 @@ const Settings = ({ onSave }: SettingTypes) => {
             <Container>
                 <TitlePage>Configurações da conta</TitlePage>
                 <InternalContainer>
-                    <AvatarInput>
-                        <UploadImage />
-                    </AvatarInput>
                     <InputControlled onSave={onSave} />
                 </InternalContainer>
             </Container>

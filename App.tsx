@@ -9,8 +9,8 @@ import FooterNavbar from "./src/components/footerNavbar";
 import { Container, InternalContainer } from "./global/styles";
 
 const AppRootComponent = () => {
-  const [name, setName] = useState('Julie');
-  const [lastName, setLastName] = useState('Moura');
+  const [name, setName] = useState('JM');
+  const [lastName, setLastName] = useState('');
 
   const handleSave = (newName: string, newLastName: string) => {
       setName(newName);

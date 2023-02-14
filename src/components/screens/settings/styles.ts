@@ -23,7 +23,7 @@ export const ExternalContainer = styled.SafeAreaView`
 `;
 
 export const InternalContainer = styled.View`
-  padding-bottom: 30px;
+  padding: 0 0 20px 0;
   display: flex;
   align-items: center;
 `;
@@ -31,7 +31,7 @@ export const InternalContainer = styled.View`
 export const TitlePage = styled.Text`
   font-size: 38px;
   color: #ffffff;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 0 0;
   font-weight: bold;
   width: 60%;
 `;

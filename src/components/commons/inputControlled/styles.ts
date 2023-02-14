@@ -20,12 +20,12 @@ export const Label = styled.Text`
 `;
 
 export const InputContent = styled.View`
-  margin-top: 20px;
+  margin: 30px 0 0 0;
 `;
 
 export const Button = styled.TouchableOpacity`
   width: 100px;
-  margin-top: 40px;
+  margin-top: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
