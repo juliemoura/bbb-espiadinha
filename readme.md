@@ -25,6 +25,9 @@ Projeto BBB Espiadinha foi criado por mim para que as pessoas que assistem ao Bi
 
 6. Um QR code será exibido no terminal. Escaneie o código com o aplicativo Expo em seu dispositivo móvel ou use um simulador de dispositivo móvel para visualizar o aplicativo.
 
+## Detalhes
+
+Aplicação feita em React Native, utilizando Styled-Components.
 
 ## Uso
 
