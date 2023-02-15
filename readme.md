@@ -39,8 +39,10 @@ Para usá-lo é necessário ter o Expo em qualquer dipositivo móvel para que te
 Certifique-se de estar conectado à Internet ao usar o aplicativo, pois ele pode precisar de recursos externos para funcionar corretamente.
 
 ## Capturas de Tela
+![IMG_4392](https://user-images.githubusercontent.com/94178633/219168850-c9d1e872-55fa-47ab-988c-b52607c87d37.PNG)
+![IMG_4390](https://user-images.githubusercontent.com/94178633/219168865-007c1197-fe25-4644-91e9-c916a2e7de55.PNG)
+![IMG_4388](https://user-images.githubusercontent.com/94178633/219168867-1fec4973-8c13-4afd-83e2-21cf055da917.PNG)
 
-Mostre aos usuários como o seu projeto é bonito com algumas capturas de tela.
 
 ## Licença
 
